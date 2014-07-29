@@ -1,0 +1,35 @@
+progs.dat
+
+src/defs.qc
+src/subs.qc
+src/fight.qc
+src/ai.qc
+src/combat.qc
+src/items.qc
+src/weapons.qc
+src/world.qc
+src/client.qc
+src/player.qc
+src/monsters.qc
+src/doors.qc
+src/buttons.qc
+src/triggers.qc
+src/plats.qc
+src/misc.qc
+
+src/ogre.qc
+src/demon.qc
+src/shambler.qc
+src/knight.qc
+src/soldier.qc
+src/wizard.qc
+src/dog.qc
+src/zombie.qc
+src/boss.qc
+
+src/tarbaby.qc		// registered
+src/hknight.qc		// registered
+src/fish.qc			// registered
+src/shalrath.qc		// registered
+src/enforcer.qc		// registered
+src/oldone.qc		// registered
