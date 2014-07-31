@@ -15,35 +15,24 @@ $frame stand1 stand2 stand3 stand4 stand5 stand6 stand7 stand8 stand9
 
 $frame runb1 runb2 runb3 runb4 runb5 runb6 runb7 runb8
 
-//frame runc1 runc2 runc3 runc4 runc5 runc6
-
-$frame runattack1 runattack2 runattack3 runattack4 runattack5
-$frame runattack6 runattack7 runattack8 runattack9 runattack10
-$frame runattack11
+$frame runattack1 runattack2 runattack3 runattack4 runattack5 runattack6 runattack7 runattack8
+$frame runattack9 runattack10 runattack11
 
 $frame pain1 pain2 pain3
 
-$frame painb1 painb2 painb3 painb4 painb5 painb6 painb7 painb8 painb9
-$frame painb10 painb11
+$frame painb1 painb2 painb3 painb4 painb5 painb6 painb7 painb8 painb9 painb10 painb11
 
-//frame attack1 attack2 attack3 attack4 attack5 attack6 attack7
-//frame attack8 attack9 attack10 attack11
+$frame attackb1 attackb2 attackb3 attackb4 attackb5 attackb6 attackb7 attackb8 attackb9 attackb10
 
-$frame attackb1 attackb1 attackb2 attackb3 attackb4 attackb5
-$frame attackb6 attackb7 attackb8 attackb9 attackb10
-
-$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9
-$frame walk10 walk11 walk12 walk13 walk14
+$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9 walk10 walk11 walk12 walk13 walk14
 
 $frame kneel1 kneel2 kneel3 kneel4 kneel5
 
 $frame standing2 standing3 standing4 standing5
 
-$frame death1 death2 death3 death4 death5 death6 death7 death8
-$frame death9 death10
+$frame death1 death2 death3 death4 death5 death6 death7 death8 death9 death10
 
-$frame deathb1 deathb2 deathb3 deathb4 deathb5 deathb6 deathb7 deathb8
-$frame deathb9 deathb10 deathb11
+$frame deathb1 deathb2 deathb3 deathb4 deathb5 deathb6 deathb7 deathb8 deathb9 deathb10 deathb11
 
 void()	knight_stand1	=[	$stand1,	knight_stand2	] {ai_stand();};
 void()	knight_stand2	=[	$stand2,	knight_stand3	] {ai_stand();};

@@ -19,15 +19,12 @@ void() finale_4;
 
 entity	shub;
 
-$frame old1 old2 old3 old4 old5 old6 old7 old8 old9 
-$frame old10 old11 old12 old13 old14 old15 old16 old17 old18 old19 
-$frame old20 old21 old22 old23 old24 old25 old26 old27 old28 old29 
-$frame old30 old31 old32 old33 old34 old35 old36 old37 old38 old39 
-$frame old40 old41 old42 old43 old44 old45 old46 
+$frame old1 old2 old3 old4 old5 old6 old7 old8 old9 old10 old11 old12 old13 old14 old15 old16 old17
+$frame old18 old19 old20 old21 old22 old23 old24 old25 old26 old27 old28 old29 old30 old31 old32
+$frame old33 old34 old35 old36 old37 old38 old39 old40 old41 old42 old43 old44 old45 old46 
 
-$frame shake1 shake2 shake3 shake4 shake5 shake6 shake7 shake8
-$frame shake9 shake10 shake11 shake12 shake12 shake13 shake14
-$frame shake15 shake16 shake17 shake18 shake19 shake20
+$frame shake1 shake2 shake3 shake4 shake5 shake6 shake7 shake8 shake9 shake10 shake11 shake12
+$frame shake13 shake14 shake15 shake16 shake17 shake18 shake19 shake20
 
 //void() old_stand     =[      $old1,       old_stand    ] {};
 
