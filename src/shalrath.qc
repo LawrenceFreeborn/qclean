@@ -87,7 +87,7 @@ void() shal_death6      =[      $death6,        shal_death7     ] {};
 void() shal_death7      =[      $death7,        shal_death7    ] {};
 
 
-void(entity, float) shalrath_pain =
+void(entity attacker, float damage) shalrath_pain =
 {
 	if (self.pain_finished > time)
 		return;
