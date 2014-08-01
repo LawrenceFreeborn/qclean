@@ -108,7 +108,7 @@ void		end_sys_globals;		// flag for structure dumping
 .float		solid;
 
 .vector		origin;			// ***
-.vector		oldorigin;		// ***
+.vector		oldorigin;		// *** only used by secret door
 .vector		velocity;
 .vector		angles;
 .vector		avelocity;
@@ -489,7 +489,6 @@ float	AS_MISSILE		= 4;
 .string		mdl;
 .vector		mangle;			// angle at start
 
-.vector		oldorigin;		// only used by secret door
 
 .float		t_length, t_width;
 
@@ -563,7 +562,7 @@ void(entity e, vector o) setorigin	= #2;
 void(entity e, string m) setmodel	= #3;		// set movetype and solid first
 void(entity e, vector min, vector max) setsize = #4;
 // #5 was removed
-void() break						= #6;
+// #6 was removed
 float() random						= #7;		// returns 0 - 1
 void(entity e, float chan, string samp, float vol, float atten) sound = #8;
 vector(vector v) normalize			= #9;

@@ -2,7 +2,7 @@
 // prototypes
 void () W_WeaponFrame;
 void() W_SetCurrentAmmo;
-void() player_pain;
+void(entity, float) player_pain;
 void() player_stand1;
 void (vector org) spawn_tfog;
 void (vector org, entity death_owner) spawn_tdeath;
@@ -131,6 +131,7 @@ entity() FindIntermission =
 		return spot;
 	
 	objerror ("FindIntermission: no spot");
+	return world;
 };
 
 

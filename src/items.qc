@@ -457,7 +457,9 @@ void() weapon_touch =
 		other.ammo_cells = other.ammo_cells + 15;
 	}
 	else
+	{
 		objerror ("weapon_touch: unknown classname");
+	}
 
 	sprint (other, "You got the ");
 	sprint (other, self.netname);
